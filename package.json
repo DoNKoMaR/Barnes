@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/DoNKoMaR/Bucky",
+    "homepage": "https://github.com/DoNKoMaR/Barnes",
     "author": {
         "name": "☣ ⒹⓞⓃ ⓀⓞⓂⓐⓇ ☣"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DoNKoMaR/Bucky.git"
+        "url": "git+https://github.com/DoNKoMaR/Barnes.git"
     },
     "bugs": {
-        "url": "https://github.com/DoNKoMaR/Bucky/issues"
+        "url": "https://github.com/DoNKoMaR/Barnes/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
