@@ -1,4 +1,4 @@
-console.log('✅ Инициализация бота...')
+console.log('✅ㅤИнициализация Бота...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -13,11 +13,11 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Bucky - Bot\nWhatsApp Bot', {
+say('Bucky - Bot\nWhatsApp Bot Bucky', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Bot creado por ☣ ⒹⓞⓃ ⓀⓞⓂⓐⓇ ☣`, {
+say(`Bot creado por DoN KoMaR`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})

@@ -24,7 +24,7 @@ conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/BrunoSobrino/
 
 handler.help = ['estado']
 handler.tags = ['main']
-handler.command = /^(estado|status|estate|state|stado|stats)$/i
+handler.command = /^(estado|статус|estate|state|stado|stats)$/i
 export default handler
 
 function clockString(ms) {
