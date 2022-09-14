@@ -4,9 +4,9 @@ import { fileURLToPath } from 'url'
 import fs from 'fs'
 
 global.owner = [
-  ['+79773452127', '👑 Mystic - Creador 👑', true],
-  ['+79773452127', '👑 Mystic - Collaborator 1 👑', true],
-  ['+79010070455', '👑 Mystic - Collaborator 2 👑', true],
+  ['79773452127', '👑 Mystic - Creador 👑', true],
+  ['79773452127', '👑 Mystic - Collaborator 1 👑', true],
+  ['79010070455', '👑 Mystic - Collaborator 2 👑', true],
   ['51940617554', '👑 Mystic - Collaborator 3 👑', true],
   ['51996089079', '👑 Mystic - Collaborator 4 👑', true],
   ['573225236629', '👑 Mystic - Collaborator 5 👑', true],

@@ -1,4 +1,4 @@
-console.log('✅ㅤИнициализация Бота...')
+console.log('✅ㅤИнициализация бота...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -13,7 +13,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Bucky - Bot\nWhatsApp Bot Bucky', {
+say('Bucky - Bot\nWhatsApp Bot ', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -54,7 +54,7 @@ p.send(process.uptime())
 break }})
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('❎ㅤOcurrio un error inesperado:', code)
+console.error('❎ㅤПроизошла непредвиденная ошибка:', code)
   
 p.process.kill()
 isRunning = false
